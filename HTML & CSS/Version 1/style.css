@@ -1,0 +1,54 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+.menu-bar {
+    background: brown;
+    text-align: center;
+}
+
+.menu-bar ul {
+    display: inline-flex;
+    color: yellow;
+    list-style: none;
+}
+
+.menu-bar ul li {
+    width: 120px;
+    height: 20px;
+    padding: 20px;
+}
+
+.menu-bar ul li a {
+    color: white;
+}
+
+.subclass {
+    display: none;
+}
+
+.menu-bar ul li:hover .subclass {
+    display: block;
+    position: absolute;
+    background: brown;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.menu-bar ul li:hover .subclass ul {
+    display: block;
+    margin: 20px;
+}
+
+.subclass1 {
+    display: none;
+}
+
+.hover-me:hover .subclass1 {
+    display: block;
+    position: absolute;
+    background: brown;
+    margin-top: 20px;
+    margin-left: 20px;
+}
